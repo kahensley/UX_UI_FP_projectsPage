@@ -1,0 +1,523 @@
+@media only screen and (max-width: 1000px) {
+    #navigation {
+      display: none;
+    }
+  
+    .icons {
+      margin-left: auto;
+    }
+
+    .content {
+      width: 100%;
+    }
+
+    p.card-text-mainProject {
+      width: 100%;   
+    }
+
+    .hero__wrapper {
+      width: 100%;
+    }
+
+    .jumboCopy {
+      width: 100%;
+    }
+
+  }
+  
+  @media only screen and (max-width: 1200px) {
+  
+
+    .content {
+      width: 100%;
+    }
+
+    .hero__wrapper {
+      width: 100% !important;
+    }
+
+    .jumbotron {
+      width: 100%;
+    }
+
+    .jumboCopy {
+      width: 100%;
+    }
+
+    div.container-fluid {
+      width: 100%;
+      padding: 0;
+    }
+
+    p.card-text-mainProject {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+      width: 100%;
+    }
+
+    .full {
+      padding: 55px;
+    }
+
+    .contactUs {
+      width: 100%;
+      display: flex;
+      flex-direction: column !important;
+      align-items: center;
+    }
+    
+   .card-body-ContactUs {
+    width: 500px !important;
+   }
+
+   .flex-grid-footer {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+
+  }
+
+  .col {
+    width: 100%;
+
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .newsEvents {
+    min-height: calc(100vh - 95px);
+  }
+
+  }
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+h2.sectionHeading {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h5.card-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+p.card-text {
+  font-size: 24px;
+}
+
+p.card-text-mainProject {
+  font-size: 24px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+p.sectionHeadingIntroText {
+  font-size: 32px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+ 
+}
+
+.display-10 {
+  font-weight: 700;
+  font-size: 85px;
+  
+}
+
+.btn {
+  text-transform: uppercase;
+  background-color: #40A541;
+  border-color: #40A541;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+.btn-link {
+  background-color: transparent;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: black;
+  font-size: 16px;
+
+}
+
+.btn:focus, .btn:hover {
+  background-color: #318432;
+  border-color: #318432;
+  
+}
+
+  .customNav {
+    position: fixed;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    z-index: 10;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  
+  .nav-item {
+    margin: 0px 15px;
+  }
+
+  .nav-item:focus, .nav-item:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    
+  }
+  
+  .customNav a {
+    color: white !important;
+  }
+  
+  .navCTA {
+    font-size: 15px;
+  }
+  
+  .jumbotron {
+    background-image: url(../images/saguaromonsoonclouds-whitebg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    height: calc(130vh - 25px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 0px;
+  
+  }
+  .jumboCopy {
+    width: 100%;
+    min-width: 500px;
+    max-width: 1000px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 2px 2px 25px #3f3f3f;
+  }
+
+  .hero__wrapper {
+    min-width: 500px;
+    max-width: 1000px;
+  }
+
+  div.card-body {
+    background-color: #e7e4de;
+    border: none;
+    
+  }
+
+  .card {
+    border: none;
+  }
+
+  .card-body-white {
+    background-color: white;
+    padding: 25px;
+  }
+
+  .card-body-large {
+    background-color: white;
+    padding: 25px;
+  }
+
+  .card-body-large:focus, .card-body-large:hover {
+    transform: scale(1.1);
+  }
+
+  .container-fluid {
+    margin-bottom: 100px;
+  }
+ 
+  
+  .cardContainer {
+    margin-top: 20px;
+    text-align: center;
+    
+  }
+  
+  
+  .content {
+    padding: 70px 140px 0 140px;
+   
+  }
+ 
+.full {
+  background-color: #C4CFC8;
+  padding: 40px;
+  
+}
+
+.adopt {
+  background-image: url(../images/cactus2.png);
+  background-size: cover;
+  background-position-y: 90%; 
+  background-repeat: no-repeat;
+  height: 500px;
+  height: calc(160vh - 25px);
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  
+}
+
+  .sectionHeading {
+    text-align: center;
+    width: 100%;
+  }
+ 
+
+  .visitPark {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+  }
+
+  .imageContainer {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+
+  .imageContainer img:focus, .imageContainer img:hover {
+    transform: scale(1.1);
+  }
+  
+  form {
+    width: 500px;
+    border: 1px solid #F2F2F2;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .contactUs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+    
+  }
+
+  .card-body-ContactUs {
+    width: 400px;
+    height: 341px;
+    background-color: #e7e4de;
+    padding: 45px;
+    font-weight: 600;
+    
+  }
+
+  .sectionHeading-ContactUs {
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .contactInfoImage {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+  }
+
+  .contactInfoInfo {
+    display: inline-block;
+    margin-bottom: 20px;
+    
+  }
+
+  .newsEvents {
+    background-image: url(../images/sag-mtn2bg.png);
+    background-size: cover;
+    background-position-y: 90%; 
+    background-repeat: no-repeat;
+    height: 500px;
+    height: calc(260vh - 25px);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 0px 50px;
+    margin: 0px 0px 0px 0px;
+
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cardContainer-button {
+    margin-top: 60px;
+    margin-bottom: 120px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+  }
+  .row-socialIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  footer {
+    width: 100%;
+    background-color: black;
+    padding: 20px 5px 20px 5px;
+    position: absolute; 
+
+    
+  } 
+
+  .flex-grid-footer {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    
+  }
+
+  .col {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: start;
+    padding: 25px;
+    margin: 20px;
+    
+    
+  }
+
+  .form-black {
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    border: none;
+    
+
+  }
+.form-inline {
+  background-color: black;
+  border: none;
+  gap: 5px;
+  margin-bottom: 25px;
+  width: 350px;
+
+}
+
+
+  .form-group-black {
+    display: inline-block;
+
+  }
+
+  p.footer-white {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+  }
+
+  .h4footer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: none;
+    color: white;
+    margin-bottom: 5px;
+  }
+
+  h6 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+  }
+
+  .footer-subscribe {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .footer-social-icons {
+    gap: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    align-items: center;
+  }
+
+  .bottomnavLinks {
+    list-style: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    padding-left: 0;
+    line-height: 28px;
+    
+  }
+
+  li:focus, li:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    
+  }
+
+  
+
+  a.bottomnavItems {
+    color: inherit;
+
+  }
+
+  a.bottomnavItems:hover, a.bottomnavItems:focus {
+    color: inherit;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+ .footerDonate {
+  display: flex;
+  flex-direction: column;
+  
+  
+  
+ }
+
+  
