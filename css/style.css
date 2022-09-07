@@ -99,6 +99,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
 }
 
+h1.impactBigNumber {
+  font-size: 70px;
+}
+
 h4 {
   font-size: 20px;
   text-transform: uppercase;
@@ -115,6 +119,12 @@ h2.sectionHeading {
 h5.card-title {
   font-size: 30px;
   font-weight: 700;
+}
+
+h5.carouselHeadline {
+  font-weight: 700;
+
+ 
 }
 
 p {
@@ -204,7 +214,7 @@ p.sectionHeadingIntroText {
   }
   
   .jumbotron {
-    background-image: url(../images/saguaromonsoonclouds-whitebg.jpg);
+    background-image: url(../images/projects-saguarosunburstcropSM.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
@@ -212,7 +222,7 @@ p.sectionHeadingIntroText {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     margin-bottom: 0px;
   
   }
@@ -221,10 +231,27 @@ p.sectionHeadingIntroText {
     min-width: 500px;
     max-width: 1000px;
     color: white;
-    text-align: center;
+    
     font-weight: 700;
     text-shadow: 2px 2px 25px #3f3f3f;
   }
+
+  .YouTube-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+  }
+
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
   .hero__wrapper {
     min-width: 500px;
@@ -271,6 +298,18 @@ p.sectionHeadingIntroText {
     padding: 70px 140px 0 140px;
    
   }
+
+  .contentIntro {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .carousel-caption {
+    background: rgba(0, 0, 0, .7);
+    font-weight: 600;
+  
+   }
  
 .full {
   background-color: #C4CFC8;
@@ -297,7 +336,7 @@ p.sectionHeadingIntroText {
   }
  
 
-  .visitPark {
+  .impactNumbers {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -348,6 +387,8 @@ p.sectionHeadingIntroText {
     text-transform: uppercase;
   }
 
+  
+
   .contactInfoImage {
     display: inline-block;
     vertical-align: top;
@@ -360,8 +401,8 @@ p.sectionHeadingIntroText {
     
   }
 
-  .newsEvents {
-    background-image: url(../images/sag-mtn2bg.png);
+  .highlights {
+    background-image: url(../images/projects-slideshow-background.png);
     background-size: cover;
     background-position-y: 90%; 
     background-repeat: no-repeat;
@@ -369,9 +410,10 @@ p.sectionHeadingIntroText {
     height: calc(260vh - 25px);
     display: flex;
     flex-direction: column;
-    padding: 50px 50px 0px 50px;
+    padding: 50px 120px 0px 120px;
     margin: 0px 0px 0px 0px;
-
+    
+    
   }
 
   .row {
